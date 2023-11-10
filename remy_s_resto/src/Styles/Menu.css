@@ -1,0 +1,188 @@
+.Module_Menu{
+    width: 1440px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.Backgd_Img{
+    background-image: url("../Assets/salle.jpg");
+    background-size: cover;
+    background-position-y: bottom;
+    height: 1000px;
+    display: grid;
+}
+
+.Formule{
+    background: beige;
+    border-radius: 20px;
+    height: 650px;
+    width: 900px;
+    margin:auto;
+    text-align: -webkit-center;
+}
+
+.Title_space{
+    text-align: center;
+}
+
+.Title_Text{
+    font-size: xx-large;
+    margin-top: 40px;
+    margin-bottom: 45px;
+    width: 900px;
+    display: inline-block;
+    font-family: 'Asong';
+    font-style: italic;
+    font-size: 60px;
+}
+
+.TextMenu{
+    height: 200px;
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+    color: white;
+    font-family: 'Asong';
+    font-size: 65px;
+}
+
+.Title_CTA{
+    font-family: helvetica;
+    letter-spacing: -1px;
+    text-decoration: overline;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.Menu_space{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    height: 300px;
+    font-family: helvetica;
+}
+
+.Menu_Text{
+    width: 150px;
+    display: flex;
+    text-align-last: center;
+    font-size: xx-large;
+    align-items: center;
+    text-align: -webkit-center;
+}
+
+.Border_Text{
+    border-right: 5px solid black;
+    height: 200px;
+    align-self: center;
+}
+
+.Menu_CTA{
+    width: 700px;
+    text-align: center;
+    font-size: 25px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 799px) {
+
+.TextMenu{
+    font-size: 150px;
+    height: 300px;
+}
+
+.Formule{
+    height: 1100px;
+    width: 1100px;
+}
+
+.Backgd_Img{
+    height: 1200px
+
+}
+
+.Border_Text{
+    border-right: 7px solid black;
+    height: 310px;
+
+}
+
+.Title_Text{
+    width: -webkit-fill-available;
+    font-size: 150px;
+}
+
+.Title_CTA{
+    font-size: 60px;
+}
+
+.Menu_Text{
+    font-size: 65px;
+    width: 300px;
+    height: 500px;
+}
+
+.Menu_space{
+    height: 500px;
+}
+
+.Module_Menu{
+    height: auto;
+}
+
+.Menu_CTA{
+    width: 850px;
+    text-align: center;
+    font-size: 50px;
+}
+
+}
+
+@media screen and (min-width: 1450px) {
+
+    .Module_Menu{
+        width: auto;
+    }
+
+    .Formule{
+        width: 1100px;
+        height: 850px;
+    }
+
+    .Title_Text{
+        font-size: 90px;
+    }
+
+    .Title_CTA{
+        font-size: 45px;
+        letter-spacing: normal;
+    }
+
+    .TextMenu{
+        font-size: 100px;
+        width: auto;
+    }
+
+    .Menu_Text{
+        font-size: 40px;
+    }
+
+    .Menu_CTA{
+        font-size: 30px;
+        width: 750px;
+
+    }
+
+    .Menu_space{
+        margin-bottom: 60px;
+    }
+
+    .Border_Text{
+        height: 260px;
+        margin-top: 30px;
+
+    }
+}

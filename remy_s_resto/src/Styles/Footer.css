@@ -1,0 +1,65 @@
+.footerBanner{
+    width: 100%;
+    height: 300px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.footerElement{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+}
+
+.picture{
+    width: 150px;
+    margin-bottom: 40px;
+}
+
+.textFooter{
+    color: white;
+    font-size: x-large;
+    text-align: center;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 799px) {
+    .footerBanner{
+        width: auto;
+        height: 600px;
+    }
+
+    .footerElement{
+        flex-direction: row;
+    }
+
+    .picture{
+        width: 570px;
+    }
+
+    .textFooter{
+        font-size: 70px;
+    }
+
+    .infoFooter{
+        width: 800px;
+        margin-left: 40px;
+    }
+}
+
+@media screen and (min-width: 1450px) {
+    .footerBanner{
+        height: 500px;
+    }
+
+    .picture{
+        width: 300px;
+    }
+
+    .infoFooter{
+        font-size: 40px;
+    }
+}

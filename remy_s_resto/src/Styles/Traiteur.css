@@ -1,0 +1,197 @@
+.Traiteur_Space{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.traiteur_TakeAway{
+    height: 1600px;
+    background-color: darkgray;
+}
+
+.Traiteur_photos_space{
+    width: 1000px;
+    height: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    place-content: space-evenly;
+    margin: auto;
+
+}
+
+.traiteur_pics_size{
+    border-radius: 10px;
+    object-fit: cover;
+    width: 400px;
+    height: inherit;  
+}
+
+.traiteur_pics_text{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    height: 400px;
+    justify-content: center;
+    text-align: -webkit-center;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.traiteur_buffet{
+    align-self: center;
+    font-family: 'Asong';
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.traiteur_buffet_text{
+    text-align: center;
+    font-size: 32px;
+    width: 300px;
+}
+
+.price{
+    font-size: smaller;
+    display: inline-block;
+    width: 300px;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.price_space{
+    font-size: 25px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.price_infos{
+    margin: inherit;
+    font-size: 30px;
+    font-family: Helvetica;
+    font-weight: lighter;
+
+}
+
+.Dessert{
+    width: 650px;
+    right: -70px;
+    position: fixed;
+}
+
+.Module_Intro_Traiteur{  
+    text-align: center;
+    height: 150px;
+    margin-top: 100px;
+
+}
+
+.Traiteur_Title{
+    font-size: 40px;
+    width: 850px;
+    text-align: -webkit-center;
+    height: 150px;
+    font-weight: lighter;
+    margin-bottom: 90px;
+}
+
+.TextMenu_Traiteur{
+    height: 200px;
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+    color: white;
+    font-family: 'Asong';
+    font-size: 75px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 799px) {
+
+    .Traiteur_Space{
+        height: auto;
+    }
+
+    .traiteur_pics_size{
+        width: 1000px;
+        height: 1000px;
+    }
+
+    .TextMenu_Traiteur{
+        font-size: 180px;
+    }
+
+    .Traiteur_Title{
+        font-size: 140px;
+        height: 1000px;
+        width: 1000px;
+        margin-bottom: 180px;
+        font-family: 'Asong';
+        margin-top: 80px;
+    }
+
+    .Traiteur_photos_space{
+        display: flex;
+        height: auto;
+    }
+
+    .traiteur_pics_text{
+        height: auto;
+    }
+
+    .traiteur_TakeAway{
+        height: auto;
+    }
+
+    .traiteur_buffet{
+        font-size: 170px;
+        width: 1200px;
+    }
+
+    .traiteur_buffet_text{
+        font-size: 80px;
+        width: min-content;
+    }
+
+    .dos{
+        order: 1;
+    }
+
+    .tres{
+        order: 3;
+    }
+
+    .price{
+        font-size: 60px;
+        width: 800px;
+    }
+
+    .price_space{
+        font-size: 70px;
+    }
+
+    .price_infos{
+        font-size: 60px;
+        margin-bottom: 100px;
+        width: 1000px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1450px) {
+.TextMenu_Traiteur{
+    width: auto;
+}
+
+.Traiteur_Title{
+    font-size: 50px;
+}
+
+.price{
+    font-size: 25px;
+}
+
+}

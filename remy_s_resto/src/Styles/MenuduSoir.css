@@ -1,0 +1,242 @@
+
+.Backgd_Img2{
+    background-image: url("../Assets/Exterieur.jpg");
+    background-size: cover;
+    background-position-y: bottom;
+    display: grid;
+}
+
+.Formule2{
+    background: beige;
+    text-align: -webkit-center;
+
+}
+
+.Title_Text_Soir{
+    font-size: xx-large;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    display: inline-block;
+    font-size: 40px;
+    font-family: 'Asong';
+    font-style: italic;
+    font-size: 60px;
+}
+
+.Menu_space_Soir{
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    height: auto;
+    margin-bottom: 100px;
+}
+
+.Menu_Text2_Soir{
+    height: 360px;
+    font-size: larger;
+    text-align: start;
+    line-height: 0.7cm;
+    display: flex;
+}
+
+
+.Border_Text_Soir{
+    border-right: 5px solid black;
+    height: 890px;
+    align-self: center;
+    margin-top: 60px;
+}
+
+.Menu_CTA_Soir{
+    margin-top: 120px;
+    width: 900px;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.Liste_Soir{
+    list-style-type: none;
+    margin-left: -20px;
+    width: 600px;
+}
+
+li{
+    list-style-type: none;
+}
+
+span{
+    display: inline-block;
+    width: 480px;
+    font-size: 25px;
+    line-height: 1.3;
+}
+
+h3{
+    font-size: 30px;
+    width: 550px;
+}
+
+.Price{
+    display: inline-block;
+    float: right;
+    font-size: 20px;
+}
+
+.Menu_Offres{
+    width: auto;
+}
+
+.Menu_Offres_Space{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+.Menu_Offres_Text2{
+    font-size: 25px;
+    letter-spacing:  3px;
+    line-height: 40px;
+    margin: 80px;
+    width: 500px;
+}
+
+.Menu_Title_Offre{
+    margin: 0;
+}
+
+.Price2 {
+    float: right;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.menu{
+    display: contents;
+}
+
+.Menu_Flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 799px) {
+
+    .Backgd_Img2{
+        height: auto;
+    }
+
+    .Formule2{
+        height: auto;
+    }
+
+    .Menudusoir{
+        width: 650px;
+    }
+
+    .Title_Text_Soir{
+        font-size: 150px;
+    }
+
+    h3{
+        font-size: 80px;
+        width: 900px;
+    }
+
+    span{
+        font-size: 50px;
+    }
+
+    .Menu_Text2_Soir{
+        font-size: 50px;
+        height: 800px;
+        line-height: 1.6cm;
+        height: 1100px;
+    }
+
+    .Border_Text_Soir{
+        height: 2800px;
+    }
+
+    .Menu_space_Soir{
+        height: auto;
+        
+    }
+
+    .Menu_CTA_Soir{
+        font-size: 60px;
+    }
+
+    .Liste_Soir{
+        width: 600px;
+        margin-left: 0px;
+    }
+
+    .Menu_Flex{
+
+        width: 1000px;
+        justify-content: space-evenly;
+    }
+
+    .Price{
+        font-weight: 600;
+        font-size: 40px;
+    }
+
+    .Price2{
+        font-size: 55px;
+    }
+
+    .Menu_Offres_Text2{
+        font-size: 70px;
+        width: 900px;
+        letter-spacing:normal;
+        line-height: normal;
+    }
+ }
+    
+ @media screen and (min-width: 1450px) {
+
+    .Liste_Soir{
+        width: 600px;
+    }
+
+    .Menu_Text2_Soir{
+        font-size: 30px;
+        height: 400px;
+        line-height: normal;
+    }
+
+    span{
+        font-size: 30px;
+    }
+
+    .Title_Text_Soir{
+        font-size: 100px;
+    }
+
+    .Border_Text_Soir{
+        height: 1200px;
+    }
+
+    h3{
+        font-size: 46px;
+    }
+
+    .Price2{
+        font-size: 35px;
+    }
+
+    .Menu_Offres_Text2{
+        font-size: 40px;
+        line-height: normal;
+        width: 550px;
+    }
+
+    .Menu_CTA_Soir{
+        font-size: 40px;
+    }
+ }

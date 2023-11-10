@@ -1,0 +1,162 @@
+
+.Module_1{
+    width: 100%;
+   height: 800px;
+   margin-top: 160px;
+
+}
+
+.Module_Bandeau{
+    background-color: darkgray;
+    height: 450px;
+    display: flex;
+    place-items: center;
+
+}
+
+.Module_title{
+    font-family: 'Asong';
+    font-size: 85px;
+    font-weight: lighter;
+}
+
+.Module{
+    width: 1440px;
+    height: 650px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Module_pres{
+    width: 520px;
+    border-radius: 15px;
+    contain: content;
+}
+
+.Module_photos{
+    width: -webkit-fill-available;
+}
+
+.Dessert{
+    width: 750px;
+    top: -80px;
+    right: -70px;
+    position: fixed;
+
+}
+
+.Module_text{
+    width: 650px;
+    display: flex;
+    align-items: center;
+    font-size: xX-large;
+    flex-flow: column;
+    align-self: center;
+    height: 360px;
+    justify-content: space-around;
+}
+
+.Module_description{
+    text-align: justify;
+    font-weight: 300;
+    font-weight: lighter;
+    font-family: Helvetica;
+}
+
+.Module_intro{
+    text-align: center;
+    height: 150px;
+
+}
+@media screen and (min-width: 320px) and (max-width: 799px) {
+    .Dessert{
+        width:100%;
+        top:-290px;
+        right:-70px;
+    }
+
+    .Module_pres{
+        border-radius: 400px;
+        width: 600px;
+        height: 600px;
+    }
+
+    .Module{
+        text-align: -webkit-center;
+        display: inline-block;
+    }
+
+    .Module_1{
+        margin-top: 0px;
+        margin-bottom: 120px;
+        height: 2200px;
+        width: 100%;
+        max-width: 740px;
+    }
+
+    .Module_description{
+        font-size: 85px;
+        margin-bottom: 80px;
+        text-align: center;
+    }
+
+    .Module_title{
+        font-size: 300px;
+        margin: 0px;
+        width: 1200px;
+        display: inline-block;
+    }
+
+    .Module_Bandeau{
+        height: 500px;
+        display: inline-block;
+
+    }
+
+    .Module_text{
+        width: 1000px;
+        height: 400px;
+        display: inline-block;
+        font-size: 80px;
+    }
+
+    .Module_intro{
+    height: auto;
+    margin-bottom: 100px;
+    }
+}
+
+@media screen and (min-width: 1450px) {
+
+    .Module{
+        width: -webkit-fill-available;
+    }
+
+    .Module_intro{
+        margin-top: 160px;
+    }
+
+    .Module_1{
+        margin-top: 100px;
+    }
+    .Module_text{
+        font-size: 40px;
+        height: 550px;
+        margin-left: -100px;
+    }
+
+    .Module_Bandeau{
+        height: 600px;
+    }
+
+    .Module_1{
+        width: auto;
+    }
+
+    .Module_description{
+        margin-left: -50px;
+    }
+
+
+
+}

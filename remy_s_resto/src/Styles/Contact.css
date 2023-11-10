@@ -1,0 +1,111 @@
+
+.Contact_space{
+    height: 500px;
+    width: 1440px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+
+.Contact_text{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.Contact_infos{
+    text-align: center;
+    font-size: 32px;
+    margin-top: 30px;
+}
+
+.Contact_reseaux{
+    font-size: 32px;
+    text-align: center;
+    height: 180px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+}
+
+.Contact_reseau{
+    margin-left: 10px;
+    font-size: 50px;
+    color: #312c2a;
+    cursor: grab;
+}
+
+.TextMenu_Contact{
+    height: 200px;
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+    color: white;
+    font-family: 'Asong';
+    font-size: 75px;
+}
+
+.infos_add{
+    margin: inherit;
+    font-size: 30px;
+    font-family: Helvetica;
+    font-weight: lighter;
+    margin-top: 30px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 799px) {
+
+    .Contact_space{
+        height: auto;
+    }
+
+    .TextMenu_Contact {
+        font-size: 180px;
+    }
+
+    .Contact_text{
+        font-size: 80px;
+        width: 80%;
+        align-self: center;
+        margin: 80px;
+    }
+
+    .Contact_infos{
+        font-size: 80px;
+        width: 80%;
+        align-self: center;
+        margin: 80px;
+    }
+
+    .Contact_reseaux{
+        font-size: 90px;
+        height: auto;
+
+    }
+
+    .Contact_reseau{
+        font-size: 120px;
+    }
+
+    .infos_add{
+    font-size: 70px;
+    width: 80%;
+    align-self: center;
+    }
+
+}
+
+
+@media screen and (min-width: 1450px) {
+    .TextMenu_Contact{
+        width: auto;
+    }
+    
+    .Contact_space{
+        width: auto;
+    }
+
+
+    }
