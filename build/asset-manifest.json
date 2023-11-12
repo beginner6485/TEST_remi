@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b759315c.css",
+    "main.js": "/static/js/main.b88dbda2.js",
+    "static/js/787.a5a47c42.chunk.js": "/static/js/787.a5a47c42.chunk.js",
+    "static/media/Fondant.JPG": "/static/media/Fondant.cb6d2d8da3f44fa17c58.JPG",
+    "static/media/ceviche.jpg": "/static/media/ceviche.d938b63cefb806658825.jpg",
+    "static/media/dessert3.jpg": "/static/media/dessert3.73d0c13531ed1b846f15.jpg",
+    "static/media/Exterieur.jpg": "/static/media/Exterieur.0baeee4abefd70a9e1a8.jpg",
+    "static/media/SalleInterieur.jpg": "/static/media/SalleInterieur.d6fc35f6ee4351c54023.jpg",
+    "static/media/ris.JPG": "/static/media/ris.de437f4931c51abcb228.JPG",
+    "static/media/millefeuille.png": "/static/media/millefeuille.52a79d356410100a3ac6.png",
+    "static/media/team.jpeg": "/static/media/team.03c80aea77a89a712767.jpeg",
+    "static/media/Asong.ttf": "/static/media/Asong.4d4fba55c9a577d764c7.ttf",
+    "static/media/Chalk.otf": "/static/media/Chalk.644c6db7aa442747dd7e.otf",
+    "static/media/aemporter.jpeg": "/static/media/aemporter.7612b1747b47107aadb7.jpeg",
+    "static/media/salle.jpg": "/static/media/salle.dcffc0edbaa713b54681.jpg",
+    "static/media/salle2.jpg": "/static/media/salle2.11f1e646dff6fd96fa02.jpg",
+    "static/media/Aireads.otf": "/static/media/Aireads.3b9f3d4a1f5e284e01e0.otf",
+    "static/media/logo chez fanfan sans fond blanc.png": "/static/media/logo chez fanfan sans fond blanc.c7b7396bed5f86bb4784.png",
+    "index.html": "/index.html",
+    "main.b759315c.css.map": "/static/css/main.b759315c.css.map",
+    "main.b88dbda2.js.map": "/static/js/main.b88dbda2.js.map",
+    "787.a5a47c42.chunk.js.map": "/static/js/787.a5a47c42.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b759315c.css",
+    "static/js/main.b88dbda2.js"
+  ]
+}
